@@ -5,7 +5,7 @@ include 'config.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$login = mysqli_query($koneksi, "select * from tb_admin where username ='$username' and password='$password'");
+$login = mysqli_query($koneksi, "select * from tb_datamahasiswa where nim ='$username' and nohp='$password'");
 $cek = mysqli_num_rows($login);
 
 if($cek > 0){

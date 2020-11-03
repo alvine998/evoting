@@ -1,3 +1,17 @@
+<?php
+
+include 'getpass.php';
+session_start();
+$nim = $_SESSION['nim'];
+$gethp = $_SESSION['pass'];
+
+var_dump($nim);
+var_dump($gethp);
+// die;
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,10 +55,10 @@
                   </div>
                   <form action="logfig.php" method="post" class="user" >
                     <div class="form-group">
-                      <input type="text" class="form-control form-control-user" name="username" placeholder="NIM">
+                      <input type="text" class="form-control form-control-user" name="username" placeholder="<?= $nim;?>">
                     </div>
                     <div class="form-group">
-                      <input type="password" id="dapatpass" class="form-control form-control-user" name="password" placeholder="Password">
+                      <input type="password" id="dapatpass" class="form-control form-control-user" name="password" placeholder="'<?= $gethp;?>'">
                     </div>
                     
                     <input type="submit" class="btn btn-primary btn-user btn-block" value="Login"/>
@@ -53,7 +67,7 @@
                   <hr>
                   <div class="text-center">
                      <!-- Button trigger modal -->
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                     <button type="button" class="btn btn-primary" data-show="false" data-toggle="modal" data-target="#exampleModalCenter">
                       Dapatkan Password Disini
                     </button>
 
@@ -67,20 +81,12 @@
                               <span aria-hidden="true">&times;</span>
                             </button>
                           </div>
-                          <div class="modal-body">
+                          <div class="modal-body" action="getpass.php">
                             <input type="text" name="nohp" id="nohp" placeholder="Masukkan No Hp">
                           </div>
                           <div class="modal-footer">
-                            <form method="POST" id="getpwd" action="getpass.php">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                            <button type="button" onclick="form_submit()" class="btn btn-primary">Submit</button>
-                            </form>
-
-                            <script type="text/javascript">
-                                function form_submit(){
-                                  document.getElementById("getpwd").submit();
-                                }
-                            </script>
+                            <button type="button" class="btn btn-primary">Submit</button>
                           </div>
                         </div>
                       </div>

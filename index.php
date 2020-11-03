@@ -66,10 +66,10 @@
                      
                       <div class="card-body">
                         <h5 class="card-title">Pemilihan Ketua Angkatan 2020</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Coming Soon!</p>
                       </div>
                       <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">06/11/2020</small>
                       </div>
                     </div>
                     <div class="card">
@@ -79,10 +79,10 @@
                       <div class="card-body">
                           
                         <h5 class="card-title">Hasil Pemilihan Ketua Angkatan 2020</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Coming Soon!</p>
                       </div>
                       <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">----</small>
                       </div>
                     </div>
                     <div class="card">
@@ -92,10 +92,10 @@
                       
                       <div class="card-body">
                         <h5 class="card-title">Pemilihan Presma dan Wapresma 2020</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text">Coming Soon!</p>
                       </div>
                       <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                        <small class="text-muted">----</small>
                       </div>
                     </div>
                   </div>

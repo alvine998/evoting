@@ -5,7 +5,7 @@ include 'koneksiadm.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-$login = mysqli_query($koneksi, "select * from tb_admin where username ='$username' and password='$password'");
+$login = mysqli_query($koneksi, "select * from tb_admin where username='$username' and password='$password'");
 $cek = mysqli_num_rows($login);
 
 if($cek > 0){
@@ -20,8 +20,8 @@ if($cek > 0){
     // echo $_SESSION['nama'];
     // die;
 
-    header("location:/phpnative/admin/admin.php");
+    header("location:/evoting/admin/admin.php");
 } else {
-    header("location:/phpnative/admin/index.php?pesan=gagal login");
+    header("location:/evoting/admin/index.php?pesan=gagal login");
 }
 ?>

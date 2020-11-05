@@ -53,7 +53,7 @@ var_dump($username);
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="admin.php">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
       </li>
@@ -75,10 +75,10 @@ var_dump($username);
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Data Mahasiswa:</h6>
-            <a class="collapse-item" href="#">Biodata</a>
+            <a class="collapse-item" href="biodata.html">Biodata</a>
             <a class="collapse-item" href="calondpm.html">Calon Anggota DPM</a>
-            <a class="collapse-item" href="#">Calon Presma dan<br/> Wapresma</a>
-            <a class="collapse-item" href="#">Calon Ketua Angkatan</a>
+            <a class="collapse-item" href="calonpresma.html">Calon Presma dan<br/> Wapresma</a>
+            <a class="collapse-item" href="calonketang.html">Calon Ketua Angkatan</a>
           </div>
         </div>
       </li>

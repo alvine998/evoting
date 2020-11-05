@@ -39,7 +39,7 @@
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                   </div>
-                  <form action="/phpnative/admin/log.php" method="post" class="user" >
+                  <form action="/evoting/admin/log.php" method="post" class="user" >
                     <div class="form-group">
                       <input type="text" class="form-control form-control-user" name="username" placeholder="Enter NIM">
                     </div>
